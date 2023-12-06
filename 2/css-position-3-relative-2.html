@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="charset" content="utf-8" />
+    <title>正常定位的元素与相对定位的元素重叠，但相对定位的元素的z-index值小于0时的示例</title>
+    <style type="text/css">
+        body {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+        }
+
+        #static {
+            position: static;
+            background-color: #f00;
+            z-index: 999;
+        }
+
+        #relative {
+            position: relative;
+            top: -100px;
+            left: 0;
+            background-color: #ff0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="static"></div>
+    <div id="relative"></div>
+</body>
+
+</html>

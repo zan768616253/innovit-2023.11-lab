@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="charset" content="utf-8" />
+    <title>绝对定位脱离常规流的示例</title>
+    <style type="text/css">
+        * {
+            margin: 12px;
+            background-color: white;
+        }
+
+        .block {
+            background-color: #f00;
+        }
+
+        .inline {
+            display: inline;
+            background-color: #ff0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">Fatman</div>
+    <div class="block" style="position: absolute;">Fatman</div>
+    <div class="inline">Fatman</div>
+    <div class="inline" style="position: absolute;">Fatman</div>
+    <div class="inline">Fatman</div>
+    <div class="inline">Fatman</div>
+</body>
+
+</html>

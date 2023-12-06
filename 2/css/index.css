@@ -1,0 +1,48 @@
+.box {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 60px;
+    border-bottom: 1px solid hsla(0,0%,100%,.08);
+}
+
+.head .headLeft {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .headRight {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .headLeft .logoBox {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.head .headLeft span {
+    cursor: pointer;
+}
+
+.head .headLeft .logoBox .logo {
+    width: 24px;
+    height: 24px;
+}

@@ -29,4 +29,20 @@ body {
   address {
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted 
+  }
+
+  
+  .box{
+    background-color: hsl(0, 1%, 65%);
+    color: rgb(136, 55, 55);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform:uppercase;
+    margin: 100px 10px;
+    border:5px blue;
+    border-top: 0lvb;
+    padding-right: 0rcap;
+    word-spacing:2em;
+  }
+  
