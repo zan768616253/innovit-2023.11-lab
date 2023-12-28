@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Using HTML, CSS aligns items horizontally using display: inline-block to create a 3-tile layout</title>
+    <style>
+        .tiles {
+            width: 600px;
+            font-size: 0;
+            margin: 0 auto;
+        }
+
+        .tile {
+            width: calc(600px / 3);
+            display: inline-block;
+        }
+
+        .tile h2 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tiles">
+        <div class="tile">
+            <img src="https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/flower-7.jpeg"
+                width="200" height="150">
+            <h2>Rose-1</h2>
+        </div>
+        <div class="tile">
+            <img src="https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/flower-8.jpeg"
+                width="200" height="150">
+            <h2>Rose-2</h2>
+        </div>
+        <div class="tile">
+            <img src="https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/flower-9.jpeg"
+                width="200" height="150">
+            <h2>Dahlia</h2>
+        </div>
+    </div>
+</body>
+
+</html>
